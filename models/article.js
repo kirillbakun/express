@@ -11,4 +11,15 @@ var schema = new Schema({
     }
 });
 
-exports.Article = mongoose.model('Article', schema);
+var Article = mongoose.model('Article', schema);
+var getArticleByTitle = function(params, results, callback) {
+    var query = Article.findOne({"title": params.title});
+    query.select('title text');
+
+    query.exec(function(error, article_data) {
+        callback(article_data);
+    });
+};
+
+exports.Article = Article;
+exports.getArticleByTitle = getArticleByTitle;

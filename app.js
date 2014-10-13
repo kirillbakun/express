@@ -22,11 +22,8 @@ app.use(body_parser.urlencoded());
 app.use(cookie_parser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', function(req, res, next) {
-    res.render('index', {
-        test: 'test value'
-    });
-});
+var index = require('./routes/index');
+app.use('/', index);
 
 http.createServer(app).listen(app.get('port'), function() {
     console.log('Express.loc listening port ' + app.get('port'));
