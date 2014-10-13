@@ -4,7 +4,7 @@ var article_model = require('../models/article.js');
 
 router.get('/', function(req, res, next) {
     var params = {"title": "Article title"};
-    article_model.getArticleByTitle(params, articles, function(values) {
+    article_model.getArticleByTitle(params, function(values) {
         res.render('index', {
             test: values.text
         });
