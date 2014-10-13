@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63a4ec7e-5413-4375-bb52-6703818aa5a0" name="Default" comment=".idea fiels">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+    <list default="true" id="63a4ec7e-5413-4375-bb52-6703818aa5a0" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\express.loc\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\express.loc\.idea\express.loc.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\express.loc\.idea\jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\express.loc\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\express.loc\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\express.loc\.idea\vcs.xml" afterPath="" />
     </list>
     <ignored path="express.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +82,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876">
               <folding />
             </state>
           </provider>
@@ -292,7 +284,11 @@
       <created>1413194008930</created>
       <updated>1413194008930</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add .gitignore">
+      <created>1413194187942</created>
+      <updated>1413194187942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -320,7 +316,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -353,7 +349,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value=".idea fiels" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea fiels" />
+    <MESSAGE value="add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
