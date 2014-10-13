@@ -12,7 +12,7 @@ var schema = new Schema({
 });
 
 var Article = mongoose.model('Article', schema);
-var getArticleByTitle = function(params, results, callback) {
+var getArticleByTitle = function(params, callback) {
     var query = Article.findOne({"title": params.title});
     query.select('title text');
 
