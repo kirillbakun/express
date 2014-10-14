@@ -12,8 +12,9 @@ var app = express();
 app.set('port', config.get('port'));
 
 app.set('views', __dirname + '/views');
-app.set('view engine', 'mustache');
-app.engine('mustache', require('hogan-middleware').__express);
+app.set('view engine', 'html');
+app.set('layout', 'layout');
+app.engine('html', require('hogan-express'));
 
 app.use(favicon());
 //app.use(logger('dev'));
