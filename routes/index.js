@@ -10,10 +10,10 @@ router.get('/', function(req, res, next) {
 });
 
 function renderIndex(res, values) {
-    res.locals = {
-        "test": values.text
-    };
-    res.render('index');
+    res.render('index', {
+        title: 'Index',
+        test: values.text
+    });
 }
 
 module.exports = router;
